@@ -14,7 +14,7 @@ public class MethodSignature {
         this.arguments = arguments;
     }
 
-    public MethodSignature(String methodName) {
+    public MethodSignature(String methodName, String returnType, String name, List<String> arguments) {
         this(methodName, new ArrayList<>());
     }
 
